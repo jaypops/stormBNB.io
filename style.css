@@ -268,4 +268,119 @@ input::placeholder {
     color: #597DB5;
 }
 /* end: contact us styles */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    .box {
+        width: 100%;
+        margin: 40px 0;
+        box-sizing: border-box;
+    }
+
+    .map {
+        width: 90%;
+        height: 300px;
+        margin: 0 auto 60px;
+        text-align: center;
+    }
+
+    .map img {
+        height: 100%;
+    }
+
+    .contact-form {
+        width: 80%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer ul {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 651px) {
+    nav ul {
+        display: block !important;
+    }
+}
+
+@media (max-width: 650px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    h3 {
+        font-size: 0.8em;
+    }
+
+    nav ul {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: #0C3C60;
+        top: 100%;
+        z-index: 3;
+        width: 100%;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+        padding: 15px 0 5px;
+        border-top: 1px solid #fff;
+    }
+
+    nav ul li a {
+        font-size: 1.5em;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .hero-marketing-bar {
+        padding: 15px 0;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 0.75em;
+    }
+
+    .hero-marketing-bar {
+        position: static;
+    }
 
