@@ -267,6 +267,16 @@ nav ul li a {
 input::placeholder {
     color: #597DB5;
 }
+.foot {
+   background:#7DCAC3 ;
+    display: flex;
+    font-size: 100%;
+    font-style: italic;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
 /* end: contact us styles */
 @media (max-width: 767px) {
     h1 {
